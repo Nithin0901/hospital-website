@@ -1,0 +1,2938 @@
+body{
+  margin: 0;
+  padding: 0;
+  /* visibility:hidden; */
+}
+.home {
+    background-color: #fcfefe;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home .div {
+    background-color: var(--white);
+    overflow: hidden;
+    width: 1366px;
+    height: 4705px;
+    position: relative;
+  }
+  
+  .home .overlap {
+    position: absolute;
+    width: 1366px;
+    height: 600px;
+    top: 160px;
+    left: 0;
+  }
+  
+  .home .physician-trends {
+    position: absolute;
+    width: 1366px;
+    height: 550px;
+    top: 0;
+    left: 0;
+  }
+  .trent1{
+    position: absolute;
+    display: flex;
+    margin-left:50%;
+    width:500px;
+  }
+  .home .overlap-group {
+    position: relative;
+    height: 550px;
+  }
+  
+  .home .rectangle {
+    position: absolute;
+    width: 1366px;
+    height: 550px;
+    top: 0;
+    left: 0;
+    background-color: #02ddcd;
+    transform: rotate(180deg);
+  }
+  
+  .home .rectangle-2 {
+    position: absolute;
+    width: 1366px;
+    height: 550px;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+    background: linear-gradient(180deg, rgb(229, 228, 232) 8.79%, rgba(235, 234, 239, 0) 100%);
+  }
+  
+  .home .frame {
+    width: 1366px;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .home .ellipse {
+    top: 199px;
+    left: 889px;
+    background-color: var(--accent);
+    opacity: 0.5;
+    position: absolute;
+    width: 734px;
+    height: 734px;
+    border-radius: 367px;
+  }
+  
+  .home .ellipse-2 {
+    top: -599px;
+    left: -387px;
+    background-color: var(--secondary);
+    opacity: 0.3;
+    position: absolute;
+    width: 734px;
+    height: 734px;
+    border-radius: 367px;
+  }
+  
+  .home .group {
+    position: absolute;
+    width: 523px;
+    height: 216px;
+    top: 167px;
+    left: 186px;
+  }
+  
+  .home .leading-the-way-in {
+    position: absolute;
+    top: 29px;
+    left: 0;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--primary);
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 13px 35px;
+    position: absolute;
+    top: 220px;
+    left: 1px;
+    background-color: var(--accent);
+    border-radius: 50px;
+  }
+  
+  .home .text-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Work Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--primary);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .caring-for-life {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    font-family: "Work Sans-Bold", Helvetica;
+    font-weight: 700;
+    color:rgb(61, 43, 226);
+    font-size: 18px;
+    letter-spacing: 2.88px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .goals {
+    display: inline-flex;
+    top: 500px;
+    left: 187px;
+    background-color: var(--primary);
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    padding: 25px 20px;
+    position: absolute;
+    border-radius: 5px;
+  }
+  
+  .home .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: var(--white);
+    font-size: var(--body-font-size);
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .home .element-calendar {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    margin-right: -1px;
+    border-radius: 10%;
+  }
+  
+  .home .goals-2 {
+    display: flex;
+    width: 259px;
+    height: 109px;
+    top: 497px;
+    left: 546px;
+    background-color: var(--accent);
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    padding: 25px 20px;
+    position: absolute;
+    border-radius: 5px;
+  }
+  
+  .home .book-an-appointment {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-font-family);
+    color: var(--black);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    font-weight: var(--body-font-weight);
+    letter-spacing: var(--body-letter-spacing);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .home .element-team {
+    position: relative;
+    width: 52px;
+    height: 44.24px;
+    border-radius: 60%;
+  }
+  
+  .home .goals-3 {
+    display: inline-flex;
+    height: 109px;
+    top: 498px;
+    left: 899px;
+    background-color: var(--secondary);
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    padding: 25px 20px;
+    position: absolute;
+    border-radius: 5px;
+  }
+  
+  .home .element-cash {
+    position: relative;
+    width: 52px;
+    height: 38.46px;
+    margin-right: -1px;
+    border-radius: 50%;
+  }
+  
+  .home .group-2 {
+    position: absolute;
+    width: 660px;
+    height: 191px;
+    top: 824px;
+    left: 354px;
+  }
+  .home-1{
+    width:100%;
+    height: 60vh;
+  }
+  .home .group-3 {
+    position: absolute;
+    width: 477px;
+    height: 66px;
+    top: 0;
+    left: 93px;
+  }
+  
+  .home .text-wrapper-3 {
+    position: absolute;
+    top: 29px;
+    left: 0;
+    font-family: var(--display-2-font-family);
+    font-weight: var(--display-2-font-weight);
+    color: var(--primary);
+    font-size: var(--display-2-font-size);
+    text-align: center;
+    letter-spacing: var(--display-2-letter-spacing);
+    line-height: var(--display-2-line-height);
+    white-space: nowrap;
+    font-style: var(--display-2-font-style);
+  }
+  
+  .home .welcome-to-meddical {
+    position: absolute;
+    top: 0;
+    left: 99px;
+    font-family: var(--caption-font-family);
+    font-weight: var(--caption-font-weight);
+    color: var(--secondary);
+    font-size: var(--caption-font-size);
+    text-align: center;
+    letter-spacing: var(--caption-letter-spacing);
+    line-height: var(--caption-line-height);
+    white-space: nowrap;
+    font-style: var(--caption-font-style);
+  }
+  
+  .home .to-provide {
+    position: absolute;
+    width: 758px;
+    top: 101px;
+    left: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: var(--body-font-weight);
+    color: var(--black);
+    font-size:larger;
+    text-align: center;
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    font-style: var(--body-font-style);
+  }
+
+  .home .group-wrapper {
+    position: absolute;
+    width: 1023px;
+    height: 424px;
+    top: 1157px;
+    left: 187px;
+    background-size: 100% 100%;
+  }
+  
+  .home .overlap-group-wrapper {
+    height: 424px;
+  }
+  
+  .home .overlap-group-2 {
+    position: relative;
+    width: 1023px;
+    height: 424px;
+  }
+  
+  .home .frame-2 {
+    width: 1023px;
+    height: 424px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .home .ellipse-3 {
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    top: 122px;
+    left: 864px;
+    background-color: var(--accent);
+    border-radius: 128px;
+    opacity: 0.5;
+  }
+  
+  .home .ellipse-4 {
+    position: absolute;
+    width: 239px;
+    height: 239px;
+    top: -119px;
+    left: -119px;
+    background-color: var(--secondary);
+    border-radius: 119.5px;
+    opacity: 0.3;
+  }
+  
+  .home .group-4 {
+    position: absolute;
+    width: 1023px;
+    height: 14px;
+    top: 410px;
+    left: 0;
+  }
+  
+  .home .rectangle-3 {
+    position: absolute;
+    width: 627px;
+    height: 14px;
+    top: 0;
+    left: 229px;
+    background-color: var(--primary);
+  }
+  
+  .home .rectangle-4 {
+    position: absolute;
+    width: 167px;
+    height: 14px;
+    top: 0;
+    left: 856px;
+    background-color: var(--secondary);
+  }
+  
+  .home .rectangle-5 {
+    position: absolute;
+    width: 229px;
+    height: 14px;
+    top: 0;
+    left: 0;
+    background-color: var(--accent);
+  }
+  .vision-1{
+    position: relative;
+    top: 1617px;
+    height: 50vh;
+  }
+  .vision-1 h1{
+    left: 0;
+    color: #db4c1c;
+    font-size: 48px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: var(--display-2-letter-spacing);
+    line-height: var(--display-2-line-height);
+    white-space: nowrap;
+    font-style: var(--display-2-font-style);
+  
+  }
+ 
+  .home .group-5 {
+    position: relative;
+    width: 992px;
+    height: 559px;
+    top: 1917px;
+    left: 187px;
+  }
+  
+  .home .group-6 {
+    position: absolute;
+    width: 250px;
+    height: 57px;
+    top: 0;
+    left: 373px;
+  }
+  
+  .home .text-wrapper-4 {
+    width: 246px;
+    top: 25px;
+    position: absolute;
+    left: 0;
+    font-family: var(--display-2-font-family);
+    font-weight: var(--display-2-font-weight);
+    color: var(--primary);
+    font-size: var(--display-2-font-size);
+    text-align: center;
+    letter-spacing: var(--display-2-letter-spacing);
+    line-height: var(--display-2-line-height);
+    white-space: nowrap;
+    font-style: var(--display-2-font-style);
+  }
+  
+  .home .always-caring {
+    position: absolute;
+    width: 181px;
+    top: 0;
+    left: 32px;
+    font-family: var(--caption-font-family);
+    font-weight: var(--caption-font-weight);
+    color: var(--secondary);
+    font-size: var(--caption-font-size);
+    text-align: center;
+    letter-spacing: var(--caption-letter-spacing);
+    line-height: var(--caption-line-height);
+    white-space: nowrap;
+    font-style: var(--caption-font-style);
+  }
+  
+  .home .div-wrapper {
+    position: absolute;
+    width: 992px;
+    height: 447px;
+    top: 112px;
+    left: 0;
+  }
+  
+  .home .overlap-group-3 {
+    position: relative;
+    height: 447px;
+  }
+  
+  .home .group-7 {
+    position: absolute;
+    width: 88px;
+    height: 78px;
+    top: 43px;
+    left: 329px;
+  }
+  
+  .home .vector {
+    position: absolute;
+    width: 50px;
+    height: 38px;
+    top: 0;
+    left: 18px;
+  }
+  
+  .home .text-wrapper-5 {
+    position: absolute;
+    width: 86px;
+    top: 45px;
+    left: 0;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .group-8 {
+    position: absolute;
+    width: 137px;
+    height: 61px;
+    top: 43px;
+    left: 56px;
+  }
+  
+  .home .img {
+    position: absolute;
+    width: 50px;
+    height: 38px;
+    top: 0;
+    left: 42px;
+  }
+  
+  .home .text-wrapper-6 {
+    position: absolute;
+    width: 135px;
+    top: 45px;
+    left: 0;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .group-9 {
+    position: absolute;
+    width: 992px;
+    height: 447px;
+    top: 0;
+    left: 0;
+  
+  }
+  
+  .home .group-10 {
+    position: absolute;
+    width: 94px;
+    height: 78px;
+    top: 43px;
+    left: 573px;
+  }
+  
+  .home .vector-2 {
+    position: absolute;
+    width: 50px;
+    height: 38px;
+    top: 0;
+    left: 21px;
+  }
+  
+  .home .text-wrapper-7 {
+    position: absolute;
+    width: 92px;
+    top: 45px;
+    left: 0;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .group-11 {
+    position: absolute;
+    width: 122px;
+    height: 78px;
+    top: 43px;
+    left: 807px;
+   
+  }
+  
+  .home .vector-3 {
+    position: absolute;
+    width: 50px;
+    height: 38px;
+    top: 0;
+    left: 35px;
+  }
+  
+  .home .orthopaedics-trauma {
+    position: absolute;
+    width: 120px;
+    top: 45px;
+    left: 0;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .group-12 {
+    position: absolute;
+    width: 136px;
+    height: 78px;
+    top: 192px;
+    left: 305px;
+  }
+  
+  .home .text-wrapper-8 {
+    position: absolute;
+    width: 134px;
+    top: 45px;
+    left: 0;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .group-13 {
+    position: absolute;
+    width: 62px;
+    height: 61px;
+    top: 341px;
+    left: 342px;
+  }
+  
+  .home .vector-4 {
+    position: absolute;
+    width: 50px;
+    height: 38px;
+    top: 0;
+    left: 5px;
+  }
+  
+  .home .text-wrapper-9 {
+    position: absolute;
+    width: 60px;
+    top: 45px;
+    left: 0;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .group-14 {
+    position: absolute;
+    width: 100px;
+    height: 78px;
+    top: 192px;
+    left: 75px;
+  }
+  
+  .home .vector-5 {
+    position: absolute;
+    width: 50px;
+    height: 38px;
+    top: 0;
+    left: 24px;
+  }
+  
+  .home .obstetrics {
+    position: absolute;
+    width: 98px;
+    top: 45px;
+    left: 0;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .group-15 {
+    position: absolute;
+    width: 90px;
+    height: 78px;
+    top: 341px;
+    left: 79px;
+  }
+  
+  .home .vector-6 {
+    position: absolute;
+    width: 50px;
+    height: 38px;
+    top: 0;
+    left: 19px;
+  }
+  
+  .home .text-wrapper-10 {
+    position: absolute;
+    width: 88px;
+    top: 45px;
+    left: 0;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .group-16 {
+    position: absolute;
+    width: 52px;
+    height: 78px;
+    top: 192px;
+    left: 595px;
+  }
+  
+  .home .vector-7 {
+    position: absolute;
+    width: 50px;
+    height: 38px;
+    top: 0;
+    left: 0;
+  }
+  
+  .home .text-wrapper-11 {
+    position: absolute;
+    width: 44px;
+    top: 45px;
+    left: 3px;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .group-17 {
+    position: absolute;
+    width: 169px;
+    height: 78px;
+    top: 341px;
+    left: 537px;
+  }
+  
+  .home .vector-8 {
+    position: absolute;
+    width: 50px;
+    height: 38px;
+    top: 0;
+    left: 58px;
+  }
+  
+  .home .text-wrapper-12 {
+    position: absolute;
+    width: 167px;
+    top: 45px;
+    left: 0;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .group-18 {
+    position: absolute;
+    width: 86px;
+    height: 78px;
+    top: 192px;
+    left: 825px;
+  }
+  
+  .home .vector-9 {
+    position: absolute;
+    width: 50px;
+    height: 38px;
+    top: 0;
+    left: 17px;
+  }
+  
+  .home .neurology {
+    width: 84px;
+    top: 45px;
+    left: 0;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    position: absolute;
+    line-height: normal;
+  }
+  
+  .home .group-19 {
+    position: absolute;
+    width: 84px;
+    height: 61px;
+    top: 341px;
+    left: 827px;
+  }
+  
+  .home .vector-10 {
+    position: absolute;
+    width: 50px;
+    height: 38px;
+    top: 0;
+    left: 16px;
+  }
+  
+  .home .text-wrapper-13 {
+    position: absolute;
+    width: 82px;
+    top: 45px;
+    left: 0;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  /* .home .overlap-2 {
+    position: absolute;
+    width: 1366px;
+    height: 573px;
+    top: 2276px;
+    left: 5px;
+  }
+  
+  .home .overlap-wrapper {
+    position: absolute;
+    width: 1366px;
+    height: 573px;
+    top: 0;
+    left: 0;
+  } */
+  
+  /* .home .overlap-3 {
+    position: relative;
+    height: 573px;
+  }
+  
+  .home .rectangle-6 {
+    position: absolute;
+    width: 1361px;
+    height: 573px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  } */
+  
+  /* .home .rectangle-7 {
+    position: absolute;
+    width: 1366px;
+    height: 573px;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    opacity: 0.8;
+  } */
+  
+  .home .footer {
+    position: absolute;
+    width: 1366px;
+    height: 427px;
+    top: 4275px;
+    left: 0;
+    background-color: var(--primary);
+  }
+  
+  .home .group-25 {
+    position: absolute;
+    width: 244px;
+    height: 110px;
+    top: 70px;
+    left: 187px;
+  }
+  
+  .home .meddical {
+    width: 191px;
+    top: 7px;
+    left: 1px;
+    position: absolute;
+    height: 26px;
+  }
+  
+  .home .leading-the-way-in-2 {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    font-family: var(--body-2-font-family);
+    font-weight: var(--body-2-font-weight);
+    color: var(--white);
+    font-size: var(--body-2-font-size);
+    letter-spacing: var(--body-2-letter-spacing);
+    line-height: var(--body-2-line-height);
+    font-style: var(--body-2-font-style);
+  }
+  
+  .home .group-26 {
+    position: absolute;
+    width: 144px;
+    height: 169px;
+    top: 70px;
+    left: 462px;
+  }
+  
+  .home .text-wrapper-16 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--white);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .group-27 {
+    position: absolute;
+    width: 110px;
+    height: 109px;
+    top: 60px;
+    left: 0;
+  }
+  
+  .home .text-wrapper-17 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: var(--white);
+    font-size: var(--body-font-size);
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .home .text-wrapper-18 {
+    position: absolute;
+    top: 29px;
+    left: 0;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: var(--white);
+    font-size: var(--body-font-size);
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .home .text-wrapper-19 {
+    position: absolute;
+    top: 58px;
+    left: 0;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: var(--white);
+    font-size: var(--body-font-size);
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .home .text-wrapper-20 {
+    position: absolute;
+    top: 87px;
+    left: 0;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: var(--white);
+    font-size: var(--body-font-size);
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .home .group-28 {
+    position: absolute;
+    width: 236px;
+    height: 169px;
+    top: 70px;
+    left: 637px;
+  }
+  
+  .home .group-29 {
+    position: absolute;
+    width: 242px;
+    height: 109px;
+    top: 60px;
+    left: 0;
+  }
+  
+  .home .group-30 {
+    position: absolute;
+    width: 274px;
+    height: 110px;
+    top: 70px;
+    left: 906px;
+  }
+  
+  .home .group-31 {
+    position: absolute;
+    width: 274px;
+    height: 50px;
+    top: 60px;
+    left: 0;
+  }
+  
+  .home .overlap-group-4 {
+    position: relative;
+    width: 272px;
+    height: 50px;
+    background-color: var(--accent);
+    border-radius: 5px;
+  }
+  
+  .home .vector-13 {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 15px;
+    left: 231px;
+  }
+  
+  .home .text-wrapper-21 {
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: var(--primary);
+    font-size: var(--body-font-size);
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .home .vector-14 {
+    position: absolute;
+    width: 992px;
+    height: 1px;
+    top: 286px;
+    left: 187px;
+    object-fit: cover;
+  }
+  
+  .home .vector-15 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 330px;
+    left: 1067px;
+  }
+  
+  .home .vector-16 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 330px;
+    left: 1111px;
+  }
+  
+  .home .vector-17 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 330px;
+    left: 1155px;
+  }
+  
+  .home .text-wrapper-22 {
+    position: absolute;
+    top: 331px;
+    left: 187px;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .contacts-section {
+    position: absolute;
+    width: 992px;
+    height: 363px;
+    top: 3787px;
+    left: 206px;
+  }
+  
+  .home .group-32 {
+    position: absolute;
+    width: 164px;
+    height: 66px;
+    top: 0;
+    left: 416px;
+  }
+  
+  .home .text-wrapper-23 {
+    top: 29px;
+    left: 16px;
+    font-family: var(--display-2-font-family);
+    color: var(--primary);
+    font-size: var(--display-2-font-size);
+    text-align: center;
+    line-height: var(--display-2-line-height);
+    position: absolute;
+    font-weight: var(--display-2-font-weight);
+    letter-spacing: var(--display-2-letter-spacing);
+    white-space: nowrap;
+    font-style: var(--display-2-font-style);
+  }
+  
+  .home .get-in-touch {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: var(--caption-font-family);
+    font-weight: var(--caption-font-weight);
+    color: var(--secondary);
+    font-size: var(--caption-font-size);
+    text-align: center;
+    letter-spacing: var(--caption-letter-spacing);
+    line-height: var(--caption-line-height);
+    white-space: nowrap;
+    font-style: var(--caption-font-style);
+  }
+  
+  .home .group-33 {
+    position: absolute;
+    width: 992px;
+    height: 233px;
+    top: 130px;
+    left: 0;
+  }
+  
+  .home .group-34 {
+    position: absolute;
+    width: 233px;
+    height: 233px;
+    top: 0;
+    left: 253px;
+    background-color: var(--primary);
+    border-radius: 5px;
+  }
+  
+  .home .group-35 {
+    position: relative;
+    width: 153px;
+    height: 130px;
+    top: 53px;
+    left: 30px;
+  }
+  
+  .home .group-36 {
+    position: absolute;
+    width: 32px;
+    height: 38px;
+    top: -1px;
+    left: 0;
+  }
+  
+  .home .group-37 {
+    position: absolute;
+    width: 159px;
+    height: 78px;
+    top: 52px;
+    left: 0;
+  }
+  
+  .home .text-wrapper-24 {
+    top: 29px;
+    left: 0;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: var(--accent);
+    line-height: var(--body-line-height);
+    position: absolute;
+    font-size: var(--body-font-size);
+    letter-spacing: var(--body-letter-spacing);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .home .text-wrapper-25 {
+    top: 56px;
+    left: 0;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: var(--accent);
+    line-height: var(--body-line-height);
+    position: absolute;
+    font-size: var(--body-font-size);
+    letter-spacing: var(--body-letter-spacing);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .home .location {
+    left: 0;
+    font-family: "Work Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .group-38 {
+    position: absolute;
+    width: 233px;
+    height: 233px;
+    top: 0;
+    left: 0;
+    background-color: var(--accent);
+    border-radius: 5px;
+  }
+  
+  .home .group-39 {
+    position: relative;
+    width: 148px;
+    height: 131px;
+    top: 52px;
+    left: 26px;
+  }
+  
+  .home .group-40 {
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    top: 0;
+    left: 0;
+  }
+  
+  .home .group-41 {
+    position: absolute;
+    width: 150px;
+    height: 78px;
+    top: 53px;
+    left: 4px;
+  }
+  
+  .home .text-wrapper-26 {
+    top: 29px;
+    left: 0;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: var(--primary);
+    line-height: var(--body-line-height);
+    position: absolute;
+    font-size: var(--body-font-size);
+    letter-spacing: var(--body-letter-spacing);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .home .text-wrapper-27 {
+    top: 56px;
+    left: 0;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: var(--primary);
+    line-height: var(--body-line-height);
+    position: absolute;
+    font-size: var(--body-font-size);
+    letter-spacing: var(--body-letter-spacing);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .home .text-wrapper-28 {
+    left: 0;
+    font-family: "Work Sans-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    color: var(--primary);
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .group-42 {
+    position: absolute;
+    width: 233px;
+    height: 233px;
+    top: 0;
+    left: 506px;
+    background-color: var(--accent);
+    border-radius: 5px;
+  }
+  
+  .home .group-43 {
+    position: relative;
+    width: 181px;
+    height: 120px;
+    top: 57px;
+    left: 30px;
+  }
+  
+  .home .group-44 {
+    position: absolute;
+    width: 37px;
+    height: 32px;
+    top: -1px;
+    left: 0;
+  }
+  
+  .home .group-45 {
+    position: absolute;
+    width: 187px;
+    height: 72px;
+    top: 48px;
+    left: 0;
+  }
+  
+  .home .text-wrapper-29 {
+    position: absolute;
+    top: 56px;
+    left: 0;
+    font-family: var(--small-font-family);
+    font-weight: var(--small-font-weight);
+    color: var(--primary);
+    font-size: var(--small-font-size);
+    letter-spacing: var(--small-letter-spacing);
+    line-height: var(--small-line-height);
+    white-space: nowrap;
+    font-style: var(--small-font-style);
+  }
+  
+  .home .group-46 {
+    position: absolute;
+    width: 233px;
+    height: 233px;
+    top: 0;
+    left: 759px;
+    background-color: var(--accent);
+    border-radius: 5px;
+  }
+  
+  .home .group-47 {
+    position: relative;
+    width: 185px;
+    height: 127px;
+    top: 56px;
+    left: 30px;
+  }
+  
+  .home .group-48 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: -1px;
+    left: 0;
+  }
+  
+  .home .group-49 {
+    position: absolute;
+    width: 191px;
+    height: 78px;
+    top: 49px;
+    left: 0;
+  }
+
+  .docter{
+    position: relative;
+    top:2150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .docter .card{
+    height: 20vh;
+  }
+  .docter h3{
+    position:absolute;
+    top:-90px;
+    color: #159eec;
+    
+  }
+  
+  .home .our-doctors-section {
+    position: absolute;
+    width: 992px;
+    height: 718px;
+    top: 2966px;
+    left: 187px;
+  }
+  
+  .home .group-50 {
+    position: absolute;
+    width: 201px;
+    height: 66px;
+    top: 0;
+    left: 397px;
+  }
+  
+  .home .trusted-care {
+    position: absolute;
+    
+    top: 0;
+    left: 13px;
+    font-family: var(--caption-font-family);
+    font-weight: var(--caption-font-weight);
+    color: var(--secondary);
+    font-size: var(--caption-font-size);
+    text-align: center;
+    letter-spacing: var(--caption-letter-spacing);
+    line-height: var(--caption-line-height);
+    white-space: nowrap;
+    font-style: var(--caption-font-style);
+  }
+  
+  .home .group-51 {
+    position: absolute;
+    width: 74px;
+    height: 18px;
+    top: 700px;
+    left: 459px;
+  }
+  
+  .home .rectangle-8 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    background-color: var(--accent);
+    border-radius: 50px;
+  }
+  
+  .home .rectangle-9 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 28px;
+    background-color: var(--primary);
+    border-radius: 50px;
+  }
+  
+  .home .rectangle-10 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 56px;
+    background-color: var(--accent);
+    border-radius: 50px;
+  }
+  
+  .home .group-52 {
+    position: absolute;
+    width: 992px;
+    height: 538px;
+    top: 130px;
+    left: 0;
+  }
+  
+  .home .doctors-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .home .rectangle-11 {
+    position: relative;
+    width: 317px;
+    height: 350px;
+  }
+  
+  .home .group-53 {
+    position: relative;
+    width: 321px;
+    height: 142px;
+    margin-right: -4px;
+  }
+  
+  .home .overlap-group-5 {
+    position: relative;
+    width: 317px;
+    height: 142px;
+    background-color: var(--accent);
+  }
+  
+  .home .text-wrapper-30 {
+    position: absolute;
+    top: 24px;
+    left: 93px;
+    font-family: var(--body-2-font-family);
+    font-weight: var(--body-2-font-weight);
+    color: var(--primary);
+    font-size: var(--body-2-font-size);
+    letter-spacing: var(--body-2-letter-spacing);
+    line-height: var(--body-2-line-height);
+    white-space: nowrap;
+    font-style: var(--body-2-font-style);
+  }
+  
+  .home .neurology-2 {
+    top: 57px;
+    left: 91px;
+    font-family: var(--caption-font-family);
+    font-weight: var(--caption-font-weight);
+    color: var(--primary);
+    font-size: var(--caption-font-size);
+    letter-spacing: var(--caption-letter-spacing);
+    white-space: nowrap;
+    position: absolute;
+    line-height: var(--caption-line-height);
+    font-style: var(--caption-font-style);
+  }
+  
+  .home .vector-18 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 94px;
+    left: 102px;
+  }
+  
+  .home .vector-19 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 94px;
+    left: 146px;
+  }
+  
+  .home .vector-20 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 94px;
+    left: 190px;
+  }
+  
+  .home .group-54 {
+    position: relative;
+    width: 319px;
+    height: 46px;
+    margin-right: -2px;
+  }
+  
+  .home .overlap-12 {
+    position: relative;
+    width: 317px;
+    height: 46px;
+    background-color: var(--primary);
+    border-radius: 0px 0px 5px 5px;
+  }
+  
+  .home .text-wrapper-31 {
+    position: absolute;
+    top: 12px;
+    left: 112px;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: var(--accent);
+    font-size: var(--body-font-size);
+    text-align: center;
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .home .doctors-card-2 {
+    left: 337px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+  }
+  
+  .home .doctors-card-3 {
+    left: 675px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+  }
+  
+  .home .navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 276px;
+    padding: 17px 187px 18px;
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    background-color: var(--primary);
+    
+  }
+  
+  .home .navbar-2 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 70px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left:100px;
+  }
+  
+  .home .text-wrapper-32 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--accent);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  
+  .home .text-wrapper-33 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  
+  .home .button-wrapper {
+    position: relative;
+    width: 173px;
+    height: 45px;
+  }
+  
+  .home .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 13px 35px;
+    position: relative;
+    background-color: var(--accent);
+    border-radius: 50px;
+  }
+  
+  .home .topmost {
+    position: fixed;
+    width: 1366px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+  }
+  
+  .home .meddical-2 {
+    width: 90px;
+    
+    left: 188px;
+    position: absolute;
+    height: 90px;
+  }
+  .logo{
+    left: 266px;
+    font-family: "Work Sans-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 16px;
+    position: absolute;
+    top: 40px;
+    color: var(--primary);
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    
+  }
+  .home .group-55 {
+    position: absolute;
+    width: 623px;
+    height: 42px;
+    top: 20px;
+    left: 556px;
+  }
+  
+  .home .group-56 {
+    position: absolute;
+    width: 190px;
+    height: 42px;
+    top: 0;
+    left: 0;
+  }
+  
+  .home .text-wrapper-34 {
+    top: 21px;
+    left: 46px;
+    font-family: "Work Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--secondary);
+    line-height: normal;
+    position: absolute;
+    font-size: 16px;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .home .group-57 {
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    top: 4px;
+    left: 0;
+  }
+  
+  .home .emergency {
+    left: 46px;
+    font-family: "Work Sans-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    color: var(--primary);
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .group-58 {
+    position: absolute;
+    width: 227px;
+    height: 40px;
+    top: 1px;
+    left: 207px;
+  }
+  
+  .home .text-wrapper-35 {
+    position: absolute;
+    top: 21px;
+    left: 40px;
+    font-family: "Work Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--secondary);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .group-59 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 3px;
+    left: -1px;
+  }
+  
+  .home .text-wrapper-36 {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    font-family: "Work Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--primary);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .group-60 {
+    position: absolute;
+    width: 177px;
+    height: 40px;
+    top: 1px;
+    left: 450px;
+  }
+  
+  .home .group-61 {
+    position: absolute;
+    width: 32px;
+    height: 38px;
+    top: 0;
+    left: -1px;
+  }
+  
+
+  .vision {
+    width: 992px;
+    height: 509px;
+    position: relative;
+    margin-left: 140px;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .image {
+    width: 408px;
+    height: 509px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+  }
+  
+  .header {
+    width: 446px;
+    height: 139px;
+    left: 428px;
+    top: 0px;
+    position: absolute;
+  }
+  
+  .sub-header {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: #159eec;
+    font-size: 18px;
+    font-family: Work Sans;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.88px;
+    word-wrap: break-word;
+  }
+  
+  .main-header {
+    left: 0px;
+    top: 29px;
+    position: absolute;
+    color: #1f2b6c;
+    font-size: 48px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .slogans {
+    width: 481px;
+    height: 107px;
+    left: 428px;
+    top: 163px;
+    position: absolute;
+  }
+  
+  .slogan {
+    width: 212px;
+    height: 25px;
+    position: absolute;
+  }
+  
+  .slogan:nth-child(1) { top: 0px; left: 0px; }
+  .slogan:nth-child(2) { top: 41px; left: 0px; }
+  .slogan:nth-child(3) { top: 0px; left: 252.5px; }
+  .slogan:nth-child(4) { top: 41px; left: 252.5px; }
+  .slogan:nth-child(5) { top: 82px; left: 0px; }
+  .slogan:nth-child(6) { top: 82px; left: 253px; }
+  
+  .dot {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background: #159eec;
+    border-radius: 50px;
+    left: 0px;
+    top: 4px;
+  }
+  
+  .slogan-text {
+    left: 26px;
+    top: 0px;
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-family: Work Sans;
+    font-weight: 400;
+    line-height: 25.2px;
+    word-wrap: break-word;
+  }
+  
+  .mission {
+    width: 564px;
+    left: 428px;
+    top: 282px;
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 400;
+    line-height: 22.4px;
+    word-wrap: break-word;
+  }
+  
+  .mission-item {
+    width: 528px;
+    height: 30px;
+    position: absolute;
+    
+  }
+  
+  .mission-item:nth-child(1) { top: 0px; left: 0px; }
+  .mission-item:nth-child(2) { top: 58px; left: 0px; }
+  .mission-item:nth-child(3) { top: 92px; left: 0px; }
+  
+  .mission-text {
+    left: 26px;
+    top: 0px;
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-family: Work Sans;
+    font-weight: 400;
+    line-height: 25.2px;
+    word-wrap: break-word;
+  }
+
+  .container1 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    /* display: flex; */
+    float: right;
+    margin-top:580px;
+    z-index: 1;
+    left:830px;
+    margin-right: 40px;
+    position: absolute;
+    margin-bottom: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.footer-sec{
+  background-color: #1d2b4d;
+  color:#ffffff;
+  padding:30px;
+  margin-top:150px;
+  position:absolute;
+  top:4100px;
+}
+.footer-sec img{
+  margin:20px;
+}
+.footer-sec p{
+  text-align: left;
+  margin:20px;
+}
+.footer-sec .foot-sec1-last{
+margin:20px;
+color:#21ccbe;
+}
+.footer-sec .arrow-png{
+  color:#21ccbe;
+}
+.footer-sec .arrow-png:hover{
+  color:#ffffff;
+}
+.footer .footer-sec2{
+  font-weight: bold;
+}
+.footer-sec2 h2{
+  margin:10px;
+  padding-top:20px;
+}
+.footer-sec2 p{
+  margin:10px;
+  line-height: 30px;
+}
+.footer .footer-sec3{
+  font-weight: bold;
+}
+.footer-sec3 h2{
+  margin:10px;
+  padding-top:20px;
+}
+.footer-sec3 p{
+  margin:10px;
+  line-height: 30px;
+}
+.footer-sec4{
+  background-color: #ffffff;
+  color:#111111;
+  padding:20px;
+  margin:10px;
+  border-radius:20px;
+}
+.footer-sec4 h2{
+font-weight:bold;
+}
+.footer-sec4 p{
+  font-weight: lighter;
+  
+}
+.footer-sec4 .tel-col{
+margin-left:20px;
+color:#3952a3;
+}
+.footer-sec4-a{
+  text-decoration: none;
+  color:#3952a3;
+  padding:20px;
+  transition: 1s ease;
+  margin-bottom:10px;
+  
+}
+
+.footer-sec4 .tel-col:hover{
+  color:#21ccbe;
+}
+.footer-sec4-a:hover{
+color:#21ccbe;
+
+}
+.footer-sec .foot-sec4-last{
+  margin:20px;
+  color:#21ccbe;
+  }
+  .arrow-png2{
+      color:#21ccbe;
+  }
+  .arrow-png2:hover{
+      color:#3952a3;
+  }
+.footer-sec4 .smg-hover:hover{
+color:#21ccbe
+}
+
+
+@media (max-width:1000px){
+  .contact{
+      margin-left:150px
+  }
+
+}
+@media (max-width:575px){
+.contact {
+  margin-left:10px;
+}
+.contact h2{
+  font-size:30px;
+}
+.contact p{
+  font-size:15px;
+}
+}
+
+
+
+
+ 
+
+
+ @media screen and (max-width:320px) {
+ 
+   
+ .home .goals{
+    margin-left: -120px;
+    /* visibility: hidden; */
+    width: 20px;
+    height: 10px;
+    
+  }
+}
+
+ @media screen and (max-width:480px){
+    
+
+  .home {
+    background-color: #fcfefe;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .home .div {
+    background-color: var(--white);
+    overflow: hidden;
+    width:466px;
+    height: 5405px;
+    position: relative;
+    
+  }
+
+  .home .overlap {
+    position: absolute;
+    width: 366px;
+    height: 600px;
+    top: 60px;
+    left: 0;
+  }
+
+  .home .physician-trends {
+    position: absolute;
+    width: 66px;
+    height: 550px;
+    top: 0;
+    left: 0;
+  }
+
+  .home .leading-the-way-in {
+    position: absolute;
+    top: 29px;
+    left:-180px;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--primary);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .home .caring-for-life {
+    position: absolute;
+    top: 0;
+    left: -180px;
+    font-family: "Work Sans-Bold", Helvetica;
+    font-weight: 700;
+    color:rgb(61, 43, 226);
+    font-size: 18px;
+    letter-spacing: 2.88px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .home .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 13px 35px;
+    position: absolute;
+    top: 220px;
+    left: -170px;
+    background-color: var(--accent);
+    border-radius: 50px;
+  }
+
+  .home .goals{
+    margin-left: -170px;
+    width: 130px;
+    height: 10px;
+  }
+
+  .home .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    left: 20px;
+    color: var(--white);
+    /* font-size: var(--body-font-size); */
+    font-size: 8px;
+    /* letter-spacing: var(--body-letter-spacing); */
+    line-height: var(--body-line-height);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  .home .element-calendar {
+    position: relative;
+    left:-30px;
+    width: 32px;
+    height: 32px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    margin-right: -1px;
+    border-radius: 10%;
+  }
+
+  .home .goals-2 {
+    display: flex;
+    width: 120px;
+    height: 12px;
+    top: 497px;
+    left: 210px;
+    background-color: var(--accent);
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    padding: 25px 20px;
+    position: absolute;
+    border-radius: 5px;
+  }
+  
+  .home .book-an-appointment {
+    position: relative;
+    left:20px;
+    width: fit-content;
+    font-family: var(--body-font-family);
+    color: var(--black);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    font-weight: var(--body-font-weight);
+    /* letter-spacing: var(--body-letter-spacing); */
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .home .element-team {
+    position: relative;
+    width: 52px;
+    height: 44.24px;
+    border-radius: 60%;
+    left:-30px;
+  }
+
+  .home .welcome-to-meddical {
+    position: absolute;
+    top: -90px;
+    left: -380px;
+    font-family: var(--caption-font-family);
+    font-weight: var(--caption-font-weight);
+    color: var(--secondary);
+    font-size: var(--caption-font-size);
+    text-align: center;
+    letter-spacing: var(--caption-letter-spacing);
+    line-height: var(--caption-line-height);
+    white-space: nowrap;
+    font-style: var(--caption-font-style);
+  }
+
+  .home .text-wrapper-3 {
+    position: absolute;
+    top:-50px;
+    left: -380px;
+    font-family: var(--display-2-font-family);
+    font-weight: var(--display-2-font-weight);
+    color: var(--primary);
+    /* font-size: var(--display-2-font-size); */
+    font-size: 20px;
+    /* text-align: center; */
+    letter-spacing: var(--display-2-letter-spacing);
+    line-height: var(--display-2-line-height);
+    white-space: nowrap;
+    font-style: var(--display-2-font-style);
+  }
+
+  .home .to-provide {
+    position: absolute;
+    width: 358px;
+    top: 1px;
+    left:-340px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: var(--body-font-weight);
+    /* font-size: 12px; */
+    color: var(--black);
+    font-size:12px;
+    text-align: center;
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    font-style: var(--body-font-style);
+  }
+
+  .home .frame-2 {
+    width: 423px;
+    height: 424px;
+    position: absolute;
+    top: -160px;
+    left: -180px;
+    overflow: hidden;
+  }
+  .home-1{
+    width:100%;
+    height: 50vh;
+    /* position: relative; */
+    /* left:-920px; */
+  }
+  .home .rectangle-3,.rectangle-4,.rectangle-5{
+  visibility: hidden;
+  }
+  .vision-1 h1{
+    font-size: 20px;
+    position: relative;
+    top:-220px;
+  }
+  .image{
+    visibility: hidden;
+    position: absolute;
+    height: 0px;
+    width: 0px;
+  }
+  .container{
+    position: relative;
+    left:-560px;
+    
+  }
+  .main-header{
+    font-size: 22px;
+    position: absolute;
+    top:-150px;
+    left:20px;
+  }
+  .slogans {
+    width: 481px;
+    height: 107px;
+    left: 428px;
+    top: -53px;
+    position: absolute;
+  }
+  
+  .slogan {
+    width: 212px;
+    height: 25px;
+    position: absolute;
+  }
+  
+  .slogan:nth-child(1) { top: 0px; left: 0px; }
+  .slogan:nth-child(2) { top: 41px; left: 0px; }
+  .slogan:nth-child(3) { top: 120px; left: 0px; }
+  .slogan:nth-child(4) { top: 155px; left: 0px; }
+  .slogan:nth-child(5) { top: 82px; left: 0px; }
+  .slogan:nth-child(6) { top: 190px; left: 0px; }
+  
+  .dot {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background: #159eec;
+    border-radius: 50px;
+    left: 0px;
+    top: 4px;
+  }
+  
+  .slogan-text {
+    left: 26px;
+    top: 0px;
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-family: Work Sans;
+    font-weight: 400;
+    line-height: 25.2px;
+    word-wrap: break-word;
+  }
+  .home .overlap-group-3 {
+    position: relative;
+    height: 47px;
+    width: 50px;
+    top:-190px;
+    left:-140px;
+  }
+  .mission-text {
+    left: 26px;
+    /* top: -110px; */
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-family: Work Sans;
+    font-weight: 400;
+    line-height: 25.2px;
+    word-wrap: break-word;
+    width: 320px;
+  }
+  .mission-item {
+    width: 528px;
+    height: 30px;
+    position: absolute;
+    
+  }
+  .mission-item:nth-child(1) { top: -110px; left: 0px; }
+  .mission-item:nth-child(2) { top: -18px; left: 0px; }
+  .mission-item:nth-child(3) { top: 15px; left: 0px; }
+  
+  .home .rectangle-11 {
+    position: relative;
+    width: 31px;
+    height: 50px;
+    
+  }
+
+  .home .overlap-12{
+    /* left:-90px; */
+    /* opacity: 0.5px; */
+    display: flex;
+    justify-items: center;
+    justify-content: flex-start;
+    
+  }
+  .div-wrapper .overlap-group-3{
+    width: 10px;
+    height: 40px;
+  }
+  .home .group-9 {
+    position: absolute;
+    width: 992px;
+    height: 447px;
+    top: 0;
+    /* left: -120px; */
+  
+  }
+  .home .text-wrapper-4 {
+    width: 246px;
+    top: -125px;
+    position: absolute;
+    left: -530px;
+    font-family: var(--display-2-font-family);
+    font-weight: var(--display-2-font-weight);
+    color: var(--primary);
+    font-size: var(--display-2-font-size);
+    /* text-align: center; */
+    letter-spacing: var(--display-2-letter-spacing);
+    line-height: var(--display-2-line-height);
+    white-space: nowrap;
+    font-style: var(--display-2-font-style);
+  }
+ .docter{
+  display: block;
+  margin-top: -300px;
+ 
+  
+ } 
+ .docter h3{
+  position:absolute;
+  top:-90px;
+  left: 60px;
+  font-size: 32px;
+  
+}
+.col-sm-3{
+  margin-left: 40px;
+  margin-bottom: 10px;
+  
+}
+ .card{
+  display: block;
+ }.navbar-toggler{
+  width:55px ;
+  margin-top: -50px;
+  margin-left: 60px;
+ }
+ .navbar-brand{
+  margin-left: -120px;
+  color: #1f2b6c !important;
+  display: flex;
+  justify-content: flex-start;
+ }
+ .navbar-brand .meddical-2{
+  display: flex;
+  margin-left: -180px;
+  position: absolute;
+  top:-3px;
+  width: 70px;
+  height: 70px;
+ }
+ .trent1{
+  position: absolute;
+  display: flex;
+  margin-left:80%;
+  width:400px;
+  margin-top: 80px;
+  height: 400px;
+}
+.home .goals {
+  display: inline-flex;
+  top: 500px;
+  left: 187px;
+  background-color: var(--primary);
+  align-items: center;
+  justify-content: center;
+  gap: 56px;
+  padding: 25px 20px;
+  position: absolute;
+  border-radius: 5px;
+}
+.text-wrapper-2 {
+  display: flex;
+width: 5px;
+}
+
+.home .div-wrapper {
+  position: absolute;
+  width: 92px;
+  height: 447px;
+  top: 112px;
+  left: 0;
+}
+
+.home .overlap-group-3 {
+  position: relative;
+  height: 447px;
+}
+
+.home .group-7 {
+  position: absolute;
+  width: 88px;
+  height: 78px;
+  top: 43px;
+  left: 79px;
+}
+
+.home .vector {
+  position: absolute;
+  width: 50px;
+  height: 38px;
+  top: 0;
+  left: 18px;
+}
+
+.home .text-wrapper-5 {
+  position: absolute;
+  width: 86px;
+  top: 45px;
+  left: 0;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .group-8 {
+  position: absolute;
+  width: 37px;
+  height: 31px;
+  top: 43px;
+  left: -36px;
+}
+
+.home .img {
+  position: absolute;
+  width: 50px;
+  height: 38px;
+  top: 0;
+  left: 42px;
+}
+
+.home .text-wrapper-6 {
+  position: absolute;
+  width: 135px;
+  top: 45px;
+  left: 0;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .group-9 {
+  position: absolute;
+  width: 340px;
+  height: 447px;
+  top: 0;
+  left:-30px;
+
+}
+
+.home .group-10 {
+  position: absolute;
+  width: 94px;
+  height: 78px;
+  top: 43px;
+  left: 183px;
+}
+
+.home .vector-2 {
+  position: absolute;
+  width: 50px;
+  height: 38px;
+  top: 0;
+  left: 21px;
+}
+
+.home .text-wrapper-7 {
+  position: absolute;
+  width: 92px;
+  top: 45px;
+  left: 0;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .group-11 {
+  position: absolute;
+  width: 122px;
+  height: 78px;
+  top: 122px;
+  left: -30px;
+ 
+}
+
+.home .vector-3 {
+  position: absolute;
+  width: 50px;
+  height: 38px;
+  top: 0;
+  left: 35px;
+}
+
+.home .orthopaedics-trauma {
+  position: absolute;
+  width: 120px;
+  top: 45px;
+  left: 0;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .group-12 {
+  position: absolute;
+  width: 136px;
+  height: 78px;
+  top: 132px;
+  left: 60px;
+}
+
+.home .text-wrapper-8 {
+  position: absolute;
+  width: 134px;
+  top: 45px;
+  left: 0;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .group-13 {
+  position: absolute;
+  width: 62px;
+  height: 61px;
+  top: 236px;
+  left: 192px;
+}
+
+.home .vector-4 {
+  position: absolute;
+  width: 50px;
+  height: 38px;
+  top: 0;
+  left: 5px;
+}
+
+.home .text-wrapper-9 {
+  position: absolute;
+  width: 60px;
+  top: 45px;
+  left: 0;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .group-14 {
+  position: absolute;
+  width: 100px;
+  height: 78px;
+  top: 232px;
+  left: -20px;
+}
+
+.home .vector-5 {
+  position: absolute;
+  width: 50px;
+  height: 38px;
+  top: 0;
+  left: 24px;
+}
+
+.home .obstetrics {
+  position: absolute;
+  width: 98px;
+  top: 45px;
+  left: 0;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .group-15 {
+  position: absolute;
+  width: 90px;
+  height: 78px;
+  top: 351px;
+  left: -15px;
+}
+
+.home .vector-6 {
+  position: absolute;
+  width: 50px;
+  height: 38px;
+  top: 0;
+  left: 19px;
+}
+
+.home .text-wrapper-10 {
+  position: absolute;
+  width: 88px;
+  top: 45px;
+  left: 0;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .group-16 {
+  position: absolute;
+  width: 52px;
+  height: 78px;
+  top: 240px;
+  left: 95px;
+}
+
+.home .vector-7 {
+  position: absolute;
+  width: 50px;
+  height: 38px;
+  top: 0;
+  left: 0;
+}
+
+.home .text-wrapper-11 {
+  position: absolute;
+  width: 44px;
+  top: 45px;
+  left: 3px;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .group-17 {
+  position: absolute;
+  width: 169px;
+  height: 78px;
+  top: 351px;
+  left: 45px;
+}
+
+.home .vector-8 {
+  position: absolute;
+  width: 50px;
+  height: 38px;
+  top: 0;
+  left: 58px;
+}
+
+.home .text-wrapper-12 {
+  position: absolute;
+  width: 167px;
+  top: 45px;
+  left: 0;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .group-18 {
+  position: absolute;
+  width: 86px;
+  height: 78px;
+  top: 132px;
+  left: 185px;
+}
+
+.home .vector-9 {
+  position: absolute;
+  width: 50px;
+  height: 38px;
+  top: 0;
+  left: 17px;
+}
+
+.home .neurology {
+  width: 84px;
+  top: 45px;
+  left: 0;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  position: absolute;
+  line-height: normal;
+}
+
+.home .group-19 {
+  position: absolute;
+  width: 84px;
+  height: 61px;
+  top: 350px;
+  left: 192px;
+}
+
+.home .vector-10 {
+  position: absolute;
+  width: 50px;
+  height: 38px;
+  top: 0;
+  left: 16px;
+}
+
+.home .text-wrapper-13 {
+  position: absolute;
+  width: 82px;
+  top: 45px;
+  left: 0;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+ }

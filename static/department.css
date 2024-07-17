@@ -1,0 +1,1215 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.services,
+.services * {
+  box-sizing: border-box;
+}
+.services {
+  background: var(--white, #fcfefe);
+  height: 2580px;
+  position: relative;
+  overflow: hidden;
+}
+.sub-head {
+  width: 1366px;
+  height: 250px;
+  position: absolute;
+  left: 0px;
+  top: 160px;
+}
+.rectangle-3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.rectangle-4 {
+  background: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.group-203 {
+  position: absolute;
+  inset: 0;
+}
+.frame-2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: hidden;
+}
+.ellipse-1 {
+  background: var(--accent, #bfd2f8);
+  border-radius: 50%;
+  opacity: 0.5;
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  right: -128px;
+  top: 122px;
+}
+.ellipse-2 {
+  background: var(--secondary, #159eec);
+  border-radius: 50%;
+  opacity: 0.3;
+  width: 239px;
+  height: 239px;
+  position: absolute;
+  left: -119px;
+  top: -119px;
+}
+.group-184 {
+  width: 1366px;
+  height: 8px;
+  position: static;
+}
+.rectangle-76 {
+  background: var(--primary, #1f2b6c);
+  width: 61.29%;
+  height: 3.2%;
+  position: absolute;
+  right: 16.33%;
+  left: 22.38%;
+  bottom: 0%;
+  top: 96.8%;
+}
+.rectangle-78 {
+  background: var(--secondary, #159eec);
+  width: 16.33%;
+  height: 3.2%;
+  position: absolute;
+  right: 0%;
+  left: 83.67%;
+  bottom: 0%;
+  top: 96.8%;
+}
+.rectangle-77 {
+  background: var(--accent, #bfd2f8);
+  width: 22.38%;
+  height: 3.2%;
+  position: absolute;
+  right: 77.62%;
+  left: 0%;
+  bottom: 0%;
+  top: 96.8%;
+}
+.group-108 {
+  position: absolute;
+  inset: 0;
+}
+.about-us {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--display-1-font-family, "YesevaOne-Regular", sans-serif);
+  font-size: var(--display-1-font-size, 48px);
+  font-weight: var(--display-1-font-weight, 400);
+  position: absolute;
+  right: 63.91%;
+  left: 13.69%;
+  width: 42.4%;
+  bottom: 39.2%;
+  top: 48.8%;
+  height: 22%;
+}
+.home-about {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--body-2-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-2-font-size, 18px);
+  line-height: var(--body-2-line-height, 140%);
+  font-weight: var(--body-2-font-weight, 400);
+  position: absolute;
+  right: 75.62%;
+  left: 13.69%;
+  width: 10.69%;
+  bottom: 59.6%;
+  top: 30.4%;
+  height: 10%;
+}
+.group-205 {
+  position: absolute;
+  inset: 0;
+}
+.service-card {
+  width: 317px;
+  height: 552px;
+  position: absolute;
+  left: 187px;
+  top: 474px;
+}
+.rectangle-21 {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--primary, #1f2b6c);
+  border-width: 1px;
+  opacity: 0.1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.free-checkup {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--title-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--title-font-size, 26px);
+  font-weight: var(--title-font-weight, 500);
+  position: absolute;
+  right: 38.49%;
+  left: 6.31%;
+  width: 55.21%;
+  bottom: 30.07%;
+  top: 64.49%;
+  height: 5.43%;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-quisque-placerat-convallis-felis-vitae-tortor-augue-velit-nascetur-massa-in {
+  color: var(--black, #212124);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 6.31%;
+  left: 6.31%;
+  width: 87.38%;
+  bottom: 12.68%;
+  top: 71.38%;
+  height: 15.94%;
+}
+.link-button {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 34.65%;
+  height: 3.99%;
+  position: absolute;
+  right: 59.04%;
+  left: 6.31%;
+  bottom: 5.8%;
+  top: 90.22%;
+}
+.link-button2 {
+  color: var(--secondary, #159eec);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+}
+.vector {
+  flex-shrink: 0;
+  width: 10.83px;
+  height: 10px;
+  position: relative;
+  overflow: visible;
+}
+.rectangle-20 {
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+  height: 54.35%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 45.65%;
+  top: 0%;
+  object-fit: cover;
+}
+.group-204 {
+  width: 100%;
+  height: 54.35%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 45.65%;
+  top: 0%;
+  overflow: visible;
+}
+.service-card2 {
+  width: 317px;
+  height: 552px;
+  position: absolute;
+  left: 187px;
+  top: 1046px;
+}
+.vector2 {
+  flex-shrink: 0;
+  width: 10.83px;
+  height: 10px;
+  position: relative;
+  overflow: visible;
+}
+.group-2042 {
+  width: 25.24%;
+  height: 14.49%;
+  position: absolute;
+  right: 6.31%;
+  left: 68.45%;
+  bottom: 38.41%;
+  top: 47.1%;
+  overflow: visible;
+}
+.service-card3 {
+  width: 317px;
+  height: 552px;
+  position: absolute;
+  left: 524px;
+  top: 474px;
+}
+.vector3 {
+  flex-shrink: 0;
+  width: 10.83px;
+  height: 10px;
+  position: relative;
+  overflow: visible;
+}
+.group-2043 {
+  width: 25.24%;
+  height: 14.49%;
+  position: absolute;
+  right: 6.31%;
+  left: 68.45%;
+  bottom: 38.41%;
+  top: 47.1%;
+  overflow: visible;
+}
+.service-card4 {
+  width: 317px;
+  height: 552px;
+  position: absolute;
+  left: 524px;
+  top: 1046px;
+}
+.vector4 {
+  flex-shrink: 0;
+  width: 10.83px;
+  height: 10px;
+  position: relative;
+  overflow: visible;
+}
+.group-2044 {
+  width: 25.24%;
+  height: 14.49%;
+  position: absolute;
+  right: 6.31%;
+  left: 68.45%;
+  bottom: 38.41%;
+  top: 47.1%;
+  overflow: visible;
+}
+.service-card5 {
+  width: 317px;
+  height: 552px;
+  position: absolute;
+  left: 861px;
+  top: 474px;
+}
+.vector5 {
+  flex-shrink: 0;
+  width: 10.83px;
+  height: 10px;
+  position: relative;
+  overflow: visible;
+}
+.group-2045 {
+  width: 25.24%;
+  height: 14.49%;
+  position: absolute;
+  right: 6.31%;
+  left: 68.45%;
+  bottom: 38.41%;
+  top: 47.1%;
+  overflow: visible;
+}
+.service-card6 {
+  width: 317px;
+  height: 552px;
+  position: absolute;
+  left: 861px;
+  top: 1046px;
+}
+.vector6 {
+  flex-shrink: 0;
+  width: 10.83px;
+  height: 10px;
+  position: relative;
+  overflow: visible;
+}
+.group-2046 {
+  width: 25.24%;
+  height: 14.49%;
+  position: absolute;
+  right: 6.31%;
+  left: 68.45%;
+  bottom: 38.41%;
+  top: 47.1%;
+  overflow: visible;
+}
+.contacts-section {
+  width: 992px;
+  height: 363px;
+  position: absolute;
+  left: 187px;
+  top: 1726px;
+}
+.group-52 {
+  position: absolute;
+  inset: 0;
+}
+.contact {
+  color: var(--primary, #1f2b6c);
+  text-align: center;
+  font-family: var(--display-2-font-family, "YesevaOne-Regular", sans-serif);
+  font-size: var(--display-2-font-size, 32px);
+  font-weight: var(--display-2-font-weight, 400);
+  position: absolute;
+  right: 43.65%;
+  left: 43.55%;
+  width: 12.8%;
+  bottom: 81.82%;
+  top: 7.99%;
+  height: 10.19%;
+}
+.get-in-touch {
+  color: var(--secondary, #159eec);
+  text-align: center;
+  font-family: var(--caption-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--caption-font-size, 18px);
+  letter-spacing: var(--caption-letter-spacing, 0.16em);
+  font-weight: var(--caption-font-weight, 700);
+  text-transform: uppercase;
+  position: absolute;
+  right: 41.94%;
+  left: 41.94%;
+  width: 16.13%;
+  bottom: 94.21%;
+  top: 0%;
+  height: 5.79%;
+}
+.group-82 {
+  position: absolute;
+  inset: 0;
+}
+.group-79 {
+  width: 233px;
+  height: 233px;
+  position: static;
+}
+.rectangle-13 {
+  background: var(--primary, #1f2b6c);
+  border-radius: 5px;
+  width: 23.49%;
+  height: 64.19%;
+  position: absolute;
+  right: 51.01%;
+  left: 25.5%;
+  bottom: 0%;
+  top: 35.81%;
+}
+.group-77 {
+  width: 153px;
+  height: 130px;
+  position: static;
+}
+.group-178 {
+  width: 3.02%;
+  height: 9.92%;
+  position: absolute;
+  right: 68.35%;
+  left: 28.63%;
+  bottom: 39.67%;
+  top: 50.41%;
+  overflow: visible;
+}
+.group-200 {
+  width: 153px;
+  height: 78px;
+  position: static;
+}
+._0123-some-place {
+  color: var(--accent, #bfd2f8);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 58.06%;
+  left: 28.53%;
+  width: 13.41%;
+  bottom: 21.21%;
+  top: 72.73%;
+  height: 6.06%;
+}
+._9876-some-country {
+  color: var(--accent, #bfd2f8);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 56.05%;
+  left: 28.53%;
+  width: 15.42%;
+  bottom: 13.77%;
+  top: 80.17%;
+  height: 6.06%;
+}
+.location {
+  color: var(--accent, #bfd2f8);
+  text-align: left;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  right: 62.3%;
+  left: 28.53%;
+  width: 9.17%;
+  bottom: 29.48%;
+  top: 64.74%;
+  height: 5.79%;
+}
+.group-822 {
+  width: 233px;
+  height: 233px;
+  position: static;
+}
+.rectangle-132 {
+  background: var(--accent, #bfd2f8);
+  border-radius: 5px;
+  width: 23.49%;
+  height: 64.19%;
+  position: absolute;
+  right: 76.51%;
+  left: 0%;
+  bottom: 0%;
+  top: 35.81%;
+}
+.group-772 {
+  width: 148px;
+  height: 131px;
+  position: static;
+}
+.group-188 {
+  width: 4.05%;
+  height: 10.52%;
+  position: absolute;
+  right: 93.33%;
+  left: 2.62%;
+  bottom: 39.34%;
+  top: 50.14%;
+  overflow: visible;
+}
+.group-2002 {
+  width: 144px;
+  height: 78px;
+  position: static;
+}
+._237-681-812-255 {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 83.06%;
+  left: 3.02%;
+  width: 13.91%;
+  bottom: 21.21%;
+  top: 72.73%;
+  height: 6.06%;
+}
+._237-666-331-894 {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 82.46%;
+  left: 3.02%;
+  width: 14.52%;
+  bottom: 13.77%;
+  top: 80.17%;
+  height: 6.06%;
+}
+.emergency {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  right: 85.58%;
+  left: 3.02%;
+  width: 11.39%;
+  bottom: 29.48%;
+  top: 64.74%;
+  height: 5.79%;
+}
+.group-83 {
+  width: 233px;
+  height: 233px;
+  position: static;
+}
+.rectangle-133 {
+  background: var(--accent, #bfd2f8);
+  border-radius: 5px;
+  width: 23.49%;
+  height: 64.19%;
+  position: absolute;
+  right: 25.5%;
+  left: 51.01%;
+  bottom: 0%;
+  top: 35.81%;
+}
+.group-773 {
+  width: 181px;
+  height: 120px;
+  position: static;
+}
+.group-202 {
+  width: 3.57%;
+  height: 8.13%;
+  position: absolute;
+  right: 42.32%;
+  left: 54.11%;
+  bottom: 40.36%;
+  top: 51.52%;
+  overflow: visible;
+}
+.group-2003 {
+  width: 181px;
+  height: 72px;
+  position: static;
+}
+.fildineeesoe-gmil-com {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 27.72%;
+  left: 54.03%;
+  width: 18.25%;
+  bottom: 21.21%;
+  top: 72.73%;
+  height: 6.06%;
+}
+.myebstudios-gmail-com {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--small-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--small-font-size, 14px);
+  font-weight: var(--small-font-weight, 400);
+  position: absolute;
+  right: 28.73%;
+  left: 54.03%;
+  width: 17.24%;
+  bottom: 15.43%;
+  top: 80.17%;
+  height: 4.41%;
+}
+.email {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  right: 40.22%;
+  left: 54.03%;
+  width: 5.75%;
+  bottom: 29.48%;
+  top: 64.74%;
+  height: 5.79%;
+}
+.group-84 {
+  width: 233px;
+  height: 233px;
+  position: static;
+}
+.rectangle-134 {
+  background: var(--accent, #bfd2f8);
+  border-radius: 5px;
+  width: 23.49%;
+  height: 64.19%;
+  position: absolute;
+  right: 0%;
+  left: 76.51%;
+  bottom: 0%;
+  top: 35.81%;
+}
+.group-774 {
+  width: 185px;
+  height: 127px;
+  position: static;
+}
+.group-177 {
+  width: 3.02%;
+  height: 8.26%;
+  position: absolute;
+  right: 17.37%;
+  left: 79.6%;
+  bottom: 40.5%;
+  top: 51.24%;
+  overflow: visible;
+}
+.group-2004 {
+  width: 185px;
+  height: 78px;
+  position: static;
+}
+.mon-sat-09-00-20-00 {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 3.53%;
+  left: 79.54%;
+  width: 16.94%;
+  bottom: 21.21%;
+  top: 72.73%;
+  height: 6.06%;
+}
+.sunday-emergency-only {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 1.81%;
+  left: 79.54%;
+  width: 18.65%;
+  bottom: 13.77%;
+  top: 80.17%;
+  height: 6.06%;
+}
+.working-hours {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  right: 4.64%;
+  left: 79.54%;
+  width: 15.83%;
+  bottom: 29.48%;
+  top: 64.74%;
+  height: 5.79%;
+}
+.footer {
+  width: 1366px;
+  height: 427px;
+  position: absolute;
+  left: 0px;
+  top: 2153px;
+}
+.rectangle-32 {
+  background: var(--primary, #1f2b6c);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.group-88 {
+  position: absolute;
+  inset: 0;
+}
+.meddical {
+  color: var(--accent, #bfd2f8);
+  text-align: left;
+  font-family: "YesevaOne-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  right: 72.18%;
+  left: 13.69%;
+  width: 14.13%;
+  bottom: 73.77%;
+  top: 16.39%;
+  height: 9.84%;
+}
+.leading-the-way-in-medical-execellence-trusted-care {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-2-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-2-font-size, 18px);
+  line-height: var(--body-2-line-height, 140%);
+  font-weight: var(--body-2-font-weight, 400);
+  position: absolute;
+  right: 68.74%;
+  left: 13.69%;
+  width: 17.57%;
+  bottom: 57.85%;
+  top: 30.44%;
+  height: 11.71%;
+}
+.group-842 {
+  position: absolute;
+  inset: 0;
+}
+.important-links {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  right: 55.78%;
+  left: 33.82%;
+  width: 10.4%;
+  bottom: 78.69%;
+  top: 16.39%;
+  height: 4.92%;
+}
+.group-86 {
+  width: 102px;
+  height: 109px;
+  position: static;
+}
+.appointment {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 58.71%;
+  left: 33.82%;
+  width: 7.47%;
+  bottom: 64.4%;
+  top: 30.44%;
+  height: 5.15%;
+}
+.doctors {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 61.71%;
+  left: 33.82%;
+  width: 4.47%;
+  bottom: 57.61%;
+  top: 37.24%;
+  height: 5.15%;
+}
+.services2 {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 61.35%;
+  left: 33.82%;
+  width: 4.83%;
+  bottom: 50.82%;
+  top: 44.03%;
+  height: 5.15%;
+}
+.about-us2 {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 60.91%;
+  left: 33.82%;
+  width: 5.27%;
+  bottom: 44.03%;
+  top: 50.82%;
+  height: 5.15%;
+}
+.group-87 {
+  position: absolute;
+  inset: 0;
+}
+.contact-us {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  right: 46.19%;
+  left: 46.63%;
+  width: 7.17%;
+  bottom: 78.69%;
+  top: 16.39%;
+  height: 4.92%;
+}
+.group-85 {
+  width: 234px;
+  height: 109px;
+  position: static;
+}
+.call-237-681-812-255 {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 40.34%;
+  left: 46.63%;
+  width: 13.03%;
+  bottom: 64.4%;
+  top: 30.44%;
+  height: 5.15%;
+}
+.email-fildineesoe-gmail-com {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 36.24%;
+  left: 46.63%;
+  width: 17.13%;
+  bottom: 57.61%;
+  top: 37.24%;
+  height: 5.15%;
+}
+.address-0123-some-place {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 38.29%;
+  left: 46.63%;
+  width: 15.08%;
+  bottom: 50.82%;
+  top: 44.03%;
+  height: 5.15%;
+}
+.some-country {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 45.31%;
+  left: 46.63%;
+  width: 8.05%;
+  bottom: 44.03%;
+  top: 50.82%;
+  height: 5.15%;
+}
+.group-90 {
+  position: absolute;
+  inset: 0;
+}
+.newsletter {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  right: 26.5%;
+  left: 66.33%;
+  width: 7.17%;
+  bottom: 78.69%;
+  top: 16.39%;
+  height: 4.92%;
+}
+.group-89 {
+  width: 272px;
+  height: 50px;
+  position: static;
+}
+.rectangle-50 {
+  background: var(--accent, #bfd2f8);
+  border-radius: 5px;
+  width: 19.91%;
+  height: 11.71%;
+  position: absolute;
+  right: 13.76%;
+  left: 66.33%;
+  bottom: 57.85%;
+  top: 30.44%;
+}
+.vector7 {
+  width: 1.61%;
+  height: 4.47%;
+  position: absolute;
+  right: 15.15%;
+  left: 83.24%;
+  bottom: 59.33%;
+  top: 36.2%;
+  overflow: visible;
+}
+.enter-your-email-address {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 18.59%;
+  left: 67.06%;
+  width: 14.35%;
+  bottom: 61.12%;
+  top: 33.72%;
+  height: 5.15%;
+}
+.vector-1 {
+  width: 72.62%;
+  height: 0%;
+  position: absolute;
+  right: 13.69%;
+  left: 13.69%;
+  bottom: 33.02%;
+  top: 66.98%;
+  overflow: visible;
+}
+.vector8 {
+  width: 1.76%;
+  height: 5.62%;
+  position: absolute;
+  right: 20.13%;
+  left: 78.11%;
+  bottom: 17.1%;
+  top: 77.28%;
+  overflow: visible;
+}
+.vector9 {
+  width: 1.76%;
+  height: 5.62%;
+  position: absolute;
+  right: 16.91%;
+  left: 81.33%;
+  bottom: 17.1%;
+  top: 77.28%;
+  overflow: visible;
+}
+.vector10 {
+  width: 1.76%;
+  height: 5.62%;
+  position: absolute;
+  right: 13.69%;
+  left: 84.55%;
+  bottom: 17.1%;
+  top: 77.28%;
+  overflow: visible;
+}
+._2021-hospital-s-name-all-rights-reserved-by-pntec-ltd {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 52.86%;
+  left: 13.69%;
+  width: 33.46%;
+  bottom: 17.8%;
+  top: 77.75%;
+  height: 4.45%;
+}
+.navbar {
+  background: var(--primary, #1f2b6c);
+  padding: 17px 187px 18px 187px;
+  display: flex;
+  flex-direction: row;
+  gap: 276px;
+  align-items: center;
+  justify-content: center;
+  width: 1366px;
+  position: sticky;
+  left: 0px;
+  top: 80px;
+}
+.frame-7 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items:center;
+  justify-content:center;
+  flex-shrink: 0;
+  margin-left: 330px;
+  position: relative;
+}
+.home {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.about-us3 {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.services3 {
+  color: var(--accent, #bfd2f8);
+  text-align: left;
+  font-family: "WorkSans-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+}
+.doctors2 {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.news {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.contact2 {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.group-180 {
+  flex-shrink: 0;
+  width: 223px;
+  height: 45px;
+  position: static;
+}
+.group-175 {
+  width: 1.46%;
+  height: 25%;
+  position: absolute;
+  right: 28.51%;
+  left: 70.02%;
+  bottom: 38.75%;
+  top: 36.25%;
+  overflow: visible;
+}
+.button {
+  background: var(--accent, #bfd2f8);
+  border-radius: 50px;
+  padding: 13px 35px 13px 35px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 12.66%;
+  height: 56.25%;
+  position: absolute;
+  right: 13.65%;
+  left: 73.68%;
+  bottom: 22.5%;
+  top: 21.25%;
+}
+.button2 {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: "WorkSans-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+}
+
+@media screen and (max-width:480px) {
+  .frame2{
+    position: relative;
+    width: 90%;
+
+  }
+  .about-us{
+    left:-0px;
+    /* font-size: 20px; */
+  }
+  .home-about{
+    visibility: hidden;
+  }
+  .all-service{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    position: relative;
+    left:-150px
+  }
+  .service-card,.service-card2,.service-card3{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+    /* left: 90px; */
+    flex-wrap: wrap;
+
+    
+
+  }
+
+
+  
+}

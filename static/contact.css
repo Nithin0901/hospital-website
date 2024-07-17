@@ -1,0 +1,1193 @@
+
+
+.contact,
+.contact * {
+  box-sizing: border-box;
+}
+.contact {
+  background: var(--white, #fcfefe);
+  height: 2179px;
+  position: relative;
+  overflow: hidden;
+}
+.group-207 {
+  position: absolute;
+  inset: 0;
+}
+.group-52 {
+  width: 160px;
+  height: 66px;
+  position: static;
+}
+.contact2 {
+  color: var(--primary, #1f2b6c);
+  text-align: center;
+  font-family: var(--display-2-font-family, "YesevaOne-Regular", sans-serif);
+  font-size: var(--display-2-font-size, 32px);
+  font-weight: var(--display-2-font-weight, 400);
+  position: absolute;
+  left: 187px;
+  top: 1017px;
+}
+.get-in-touch {
+  color: var(--secondary, #159eec);
+  text-align: left;
+  font-family: var(--caption-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--caption-font-size, 18px);
+  letter-spacing: var(--caption-letter-spacing, 0.16em);
+  font-weight: var(--caption-font-weight, 700);
+  text-transform: uppercase;
+  position: absolute;
+  left: 187px;
+  top: 988px;
+}
+.group-82 {
+  width: 486px;
+  height: 486px;
+  position: static;
+}
+.group-79 {
+  width: 233px;
+  height: 233px;
+  position: static;
+}
+.rectangle-13 {
+  background: var(--primary, #1f2b6c);
+  border-radius: 5px;
+  width: 233px;
+  height: 233px;
+  position: absolute;
+  left: 946px;
+  top: 988px;
+}
+.group-77 {
+  width: 153px;
+  height: 130px;
+  position: static;
+}
+.group-178 {
+  width: 30px;
+  height: 36px;
+  position: absolute;
+  left: 977px;
+  top: 1041px;
+  overflow: visible;
+}
+.group-200 {
+  width: 153px;
+  height: 78px;
+  position: static;
+}
+._0123-some-place {
+  color: var(--accent, #bfd2f8);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  left: 976px;
+  top: 1122px;
+}
+._9876-some-country {
+  color: var(--accent, #bfd2f8);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  left: 976px;
+  top: 1149px;
+}
+.location {
+  color: var(--accent, #bfd2f8);
+  text-align: left;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 976px;
+  top: 1093px;
+}
+.group-822 {
+  width: 233px;
+  height: 233px;
+  position: static;
+}
+.rectangle-132 {
+  background: var(--accent, #bfd2f8);
+  border-radius: 5px;
+  width: 233px;
+  height: 233px;
+  position: absolute;
+  left: 693px;
+  top: 988px;
+}
+.group-772 {
+  width: 148px;
+  height: 131px;
+  position: static;
+}
+.group-188 {
+  width: 40.2px;
+  height: 38.19px;
+  position: absolute;
+  left: 719px;
+  top: 1040px;
+  overflow: visible;
+}
+.group-2002 {
+  width: 144px;
+  height: 78px;
+  position: static;
+}
+._237-681-812-255 {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  left: 723px;
+  top: 1122px;
+}
+._237-666-331-894 {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  left: 723px;
+  top: 1149px;
+}
+.emergency {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 723px;
+  top: 1093px;
+}
+.group-83 {
+  width: 233px;
+  height: 233px;
+  position: static;
+}
+.rectangle-133 {
+  background: var(--accent, #bfd2f8);
+  border-radius: 5px;
+  width: 233px;
+  height: 233px;
+  position: absolute;
+  left: 693px;
+  top: 1241px;
+}
+.group-773 {
+  width: 181px;
+  height: 120px;
+  position: static;
+}
+.group-202 {
+  width: 35.4px;
+  height: 29.5px;
+  position: absolute;
+  left: 723.8px;
+  top: 1298px;
+  overflow: visible;
+}
+.group-2003 {
+  width: 181px;
+  height: 72px;
+  position: static;
+}
+.fildineeesoe-gmil-com {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  left: 723px;
+  top: 1375px;
+}
+.myebstudios-gmail-com {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--small-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--small-font-size, 14px);
+  font-weight: var(--small-font-weight, 400);
+  position: absolute;
+  left: 723px;
+  top: 1402px;
+}
+.email {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 723px;
+  top: 1346px;
+}
+.group-84 {
+  width: 233px;
+  height: 233px;
+  position: static;
+}
+.rectangle-134 {
+  background: var(--accent, #bfd2f8);
+  border-radius: 5px;
+  width: 233px;
+  height: 233px;
+  position: absolute;
+  left: 946px;
+  top: 1241px;
+}
+.group-774 {
+  width: 185px;
+  height: 127px;
+  position: static;
+}
+.group-177 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 976.68px;
+  top: 1297px;
+  overflow: visible;
+}
+.group-2004 {
+  width: 185px;
+  height: 78px;
+  position: static;
+}
+.mon-sat-09-00-20-00 {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  left: 976px;
+  top: 1375px;
+}
+.sunday-emergency-only {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  left: 976px;
+  top: 1402px;
+}
+.working-hours {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 976px;
+  top: 1346px;
+}
+.group-138 {
+  width: 486px;
+  height: 388px;
+  position: static;
+}
+.rectangle-80 {
+  background: var(--accent, #bfd2f8);
+  border-radius: 5px;
+  width: 486px;
+  height: 388px;
+  position: absolute;
+  left: 187px;
+  top: 1086px;
+}
+.rectangle-57 {
+  background: var(--primary, #1f2b6c);
+  border-radius: 5px 0px 0px 0px;
+  width: 243px;
+  height: 50px;
+  position: absolute;
+  left: 187px;
+  top: 1086px;
+}
+.rectangle-58 {
+  background: var(--primary, #1f2b6c);
+  border-radius: 0px 5px 0px 0px;
+  width: 242px;
+  height: 50px;
+  position: absolute;
+  left: 431px;
+  top: 1086px;
+}
+.rectangle-55 {
+  background: var(--primary, #1f2b6c);
+  width: 486px;
+  height: 50px;
+  position: absolute;
+  left: 187px;
+  top: 1137px;
+}
+.rectangle-56 {
+  background: var(--primary, #1f2b6c);
+  width: 486px;
+  height: 235px;
+  position: absolute;
+  left: 187px;
+  top: 1188px;
+}
+.group-48 {
+  width: 486px;
+  height: 50px;
+  position: static;
+}
+.rectangle-34 {
+  background: var(--accent, #bfd2f8);
+  border-radius: 0px 0px 5px 5px;
+  width: 486px;
+  height: 50px;
+  position: absolute;
+  left: 187px;
+  top: 1424px;
+}
+.submit {
+  color: var(--primary, #1f2b6c);
+  text-align: center;
+  font-family: "WorkSans-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: absolute;
+  left: 400px;
+  top: 1439px;
+}
+.name {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  left: 207px;
+  top: 1100px;
+}
+.email2 {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  left: 451px;
+  top: 1101px;
+}
+.subject {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  left: 207px;
+  top: 1152px;
+}
+.message {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  left: 207px;
+  top: 1203px;
+}
+.sub-head {
+  width: 1366px;
+  height: 250px;
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+.rectangle-3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.rectangle-4 {
+  background: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.group-203 {
+  position: absolute;
+  inset: 0;
+}
+.frame-2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: hidden;
+}
+.ellipse-1 {
+  background: var(--accent, #bfd2f8);
+  border-radius: 50%;
+  opacity: 0.5;
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  right: -128px;
+  top: 122px;
+}
+.ellipse-2 {
+  background: var(--secondary, #159eec);
+  border-radius: 50%;
+  opacity: 0.3;
+  width: 239px;
+  height: 239px;
+  position: absolute;
+  left: -119px;
+  top: -119px;
+}
+.group-184 {
+  width: 1366px;
+  height: 8px;
+  position: static;
+}
+.rectangle-76 {
+  background: var(--primary, #1f2b6c);
+  width: 61.29%;
+  height: 3.2%;
+  position: absolute;
+  right: 16.33%;
+  left: 22.38%;
+  bottom: 0%;
+  top: 96.8%;
+}
+.rectangle-78 {
+  background: var(--secondary, #159eec);
+  width: 16.33%;
+  height: 3.2%;
+  position: absolute;
+  right: 0%;
+  left: 83.67%;
+  bottom: 0%;
+  top: 96.8%;
+}
+.rectangle-77 {
+  background: var(--accent, #bfd2f8);
+  width: 22.38%;
+  height: 3.2%;
+  position: absolute;
+  right: 77.62%;
+  left: 0%;
+  bottom: 0%;
+  top: 96.8%;
+}
+.group-108 {
+  position: absolute;
+  inset: 0;
+}
+.about-us {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--display-1-font-family, "YesevaOne-Regular", sans-serif);
+  font-size: var(--display-1-font-size, 48px);
+  font-weight: var(--display-1-font-weight, 400);
+  position: absolute;
+  right: 62.88%;
+  left: 13.69%;
+  width: 23.43%;
+  bottom: 39.2%;
+  top: 38.8%;
+  height: 22%;
+}
+.home-about {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--body-2-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-2-font-size, 18px);
+  line-height: var(--body-2-line-height, 140%);
+  font-weight: var(--body-2-font-weight, 400);
+  position: absolute;
+  right: 75.92%;
+  left: 13.69%;
+  width: 10.4%;
+  bottom: 59.6%;
+  top: 30.4%;
+  height: 10%;
+}
+.footer {
+  width: 1366px;
+  height: 427px;
+  position: absolute;
+  left: 1px;
+  top: 1752px;
+}
+.rectangle-32 {
+  background: var(--primary, #1f2b6c);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.group-88 {
+  position: absolute;
+  inset: 0;
+}
+.meddical {
+  color: var(--accent, #bfd2f8);
+  text-align: left;
+  font-family: "YesevaOne-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  right: 72.18%;
+  left: 13.69%;
+  width: 14.13%;
+  bottom: 73.77%;
+  top: 16.39%;
+  height: 9.84%;
+}
+.leading-the-way-in-medical-execellence-trusted-care {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-2-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-2-font-size, 18px);
+  line-height: var(--body-2-line-height, 140%);
+  font-weight: var(--body-2-font-weight, 400);
+  position: absolute;
+  right: 68.74%;
+  left: 13.69%;
+  width: 17.57%;
+  bottom: 57.85%;
+  top: 30.44%;
+  height: 11.71%;
+}
+.group-842 {
+  position: absolute;
+  inset: 0;
+}
+.important-links {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  right: 55.78%;
+  left: 33.82%;
+  width: 10.4%;
+  bottom: 78.69%;
+  top: 16.39%;
+  height: 4.92%;
+}
+.group-86 {
+  width: 102px;
+  height: 109px;
+  position: static;
+}
+.appointment {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 58.71%;
+  left: 33.82%;
+  width: 7.47%;
+  bottom: 64.4%;
+  top: 30.44%;
+  height: 5.15%;
+}
+.doctors {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 61.71%;
+  left: 33.82%;
+  width: 4.47%;
+  bottom: 57.61%;
+  top: 37.24%;
+  height: 5.15%;
+}
+.services {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 61.35%;
+  left: 33.82%;
+  width: 4.83%;
+  bottom: 50.82%;
+  top: 44.03%;
+  height: 5.15%;
+}
+.about-us2 {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 60.91%;
+  left: 33.82%;
+  width: 5.27%;
+  bottom: 44.03%;
+  top: 50.82%;
+  height: 5.15%;
+}
+.group-87 {
+  position: absolute;
+  inset: 0;
+}
+.contact-us {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  right: 46.19%;
+  left: 46.63%;
+  width: 7.17%;
+  bottom: 78.69%;
+  top: 16.39%;
+  height: 4.92%;
+}
+.group-85 {
+  width: 234px;
+  height: 109px;
+  position: static;
+}
+.call-237-681-812-255 {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 40.34%;
+  left: 46.63%;
+  width: 13.03%;
+  bottom: 64.4%;
+  top: 30.44%;
+  height: 5.15%;
+}
+.email-fildineesoe-gmail-com {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 36.24%;
+  left: 46.63%;
+  width: 17.13%;
+  bottom: 57.61%;
+  top: 37.24%;
+  height: 5.15%;
+}
+.address-0123-some-place {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 38.29%;
+  left: 46.63%;
+  width: 15.08%;
+  bottom: 50.82%;
+  top: 44.03%;
+  height: 5.15%;
+}
+.some-country {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 45.31%;
+  left: 46.63%;
+  width: 8.05%;
+  bottom: 44.03%;
+  top: 50.82%;
+  height: 5.15%;
+}
+.group-90 {
+  position: absolute;
+  inset: 0;
+}
+.newsletter {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  right: 26.5%;
+  left: 66.33%;
+  width: 7.17%;
+  bottom: 78.69%;
+  top: 16.39%;
+  height: 4.92%;
+}
+.group-89 {
+  width: 272px;
+  height: 50px;
+  position: static;
+}
+.rectangle-50 {
+  background: var(--accent, #bfd2f8);
+  border-radius: 5px;
+  width: 19.91%;
+  height: 11.71%;
+  position: absolute;
+  right: 13.76%;
+  left: 66.33%;
+  bottom: 57.85%;
+  top: 30.44%;
+}
+.vector {
+  width: 1.61%;
+  height: 4.47%;
+  position: absolute;
+  right: 15.15%;
+  left: 83.24%;
+  bottom: 59.33%;
+  top: 36.2%;
+  overflow: visible;
+}
+.enter-your-email-address {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: var(--body-font-family, "WorkSans-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 140%);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  right: 18.59%;
+  left: 67.06%;
+  width: 14.35%;
+  bottom: 61.12%;
+  top: 33.72%;
+  height: 5.15%;
+}
+.vector-1 {
+  width: 72.62%;
+  height: 0%;
+  position: absolute;
+  right: 13.69%;
+  left: 13.69%;
+  bottom: 33.02%;
+  top: 66.98%;
+  overflow: visible;
+}
+.vector2 {
+  width: 1.76%;
+  height: 5.62%;
+  position: absolute;
+  right: 20.13%;
+  left: 78.11%;
+  bottom: 17.1%;
+  top: 77.28%;
+  overflow: visible;
+}
+.vector3 {
+  width: 1.76%;
+  height: 5.62%;
+  position: absolute;
+  right: 16.91%;
+  left: 81.33%;
+  bottom: 17.1%;
+  top: 77.28%;
+  overflow: visible;
+}
+.vector4 {
+  width: 1.76%;
+  height: 5.62%;
+  position: absolute;
+  right: 13.69%;
+  left: 84.55%;
+  bottom: 17.1%;
+  top: 77.28%;
+  overflow: visible;
+}
+._2021-hospital-s-name-all-rights-reserved-by-pntec-ltd {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 52.86%;
+  left: 13.69%;
+  width: 33.46%;
+  bottom: 17.8%;
+  top: 77.75%;
+  height: 4.45%;
+}
+.mapview {
+  width: 992px;
+  height: 450px;
+  position: absolute;
+  left: 187px;
+  top: 474px;
+}
+.map {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.navbar {
+  background: var(--primary, #1f2b6c);
+  padding: 17px 187px 18px 187px;
+  display: flex;
+  flex-direction: row;
+  gap: 276px;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+    margin-left: 30px;
+  left: 600px;
+  top: 80px;
+}
+.frame-7 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.home {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.about-us3 {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.services2 {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.doctors2 {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.news {
+  color: var(--white, #fcfefe);
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.contact3 {
+  color: var(--accent, #bfd2f8);
+  text-align: left;
+  font-family: "WorkSans-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+}
+.group-180 {
+  flex-shrink: 0;
+  width: 223px;
+  height: 45px;
+  position: static;
+}
+.group-175 {
+  width: 1.46%;
+  height: 25%;
+  position: absolute;
+  right: 28.51%;
+  left: 70.02%;
+  bottom: 38.75%;
+  top: 36.25%;
+  overflow: visible;
+}
+.button {
+  background: var(--accent, #bfd2f8);
+  border-radius: 50px;
+  padding: 13px 35px 13px 35px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items:center;
+  justify-content:center;
+  width: 9.66%;
+  height: 3.25%;
+  position: absolute;
+  right: 13.65%;
+  left: 73.68%;
+  /* bottom: 22.5%; */
+  /* top: 21.25%; */
+}
+.button2 {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: "WorkSans-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+}
+.topmost {
+  width: 1366px;
+  height: 80px;
+  position: sticky;
+  left: 300px;
+  top: 0px;
+}
+.rectangle-1 {
+  background: var(--white, #fcfefe);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.meddical2 {
+  text-align: left;
+  font-family: "YesevaOne-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  right: 72.18%;
+  left: 13.69%;
+  width: 14.13%;
+  bottom: 23.75%;
+  top: 23.75%;
+  height: 52.5%;
+}
+.meddical-2-span {
+  color: var(--primary, #1f2b6c);
+  font-family: "YesevaOne-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.meddical-2-span2 {
+  color: var(--secondary, #159eec);
+  font-family: "YesevaOne-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.group-179 {
+  position: absolute;
+  inset: 0;
+}
+.group-8 {
+  width: 185.68px;
+  height: 42.19px;
+  position: static;
+}
+._237-681-812-2552 {
+  color: var(--secondary, #159eec);
+  text-align: left;
+  font-family: "WorkSans-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  right: 45.7%;
+  left: 44.05%;
+  width: 10.25%;
+  bottom: 25%;
+  top: 51.25%;
+  height: 23.75%;
+}
+.group-1882 {
+  width: 2.94%;
+  height: 47.74%;
+  position: absolute;
+  right: 56.35%;
+  left: 40.7%;
+  bottom: 22.26%;
+  top: 30%;
+  overflow: visible;
+}
+.emergency2 {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: "WorkSans-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: absolute;
+  right: 48.71%;
+  left: 44.05%;
+  width: 7.25%;
+  bottom: 51.25%;
+  top: 25%;
+  height: 23.75%;
+}
+.group-11 {
+  width: 222.68px;
+  height: 40px;
+  position: static;
+}
+._09-00-20-00-everyday {
+  color: var(--secondary, #159eec);
+  text-align: left;
+  font-family: "WorkSans-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  right: 27.87%;
+  left: 58.74%;
+  width: 13.4%;
+  bottom: 23.75%;
+  top: 52.5%;
+  height: 23.75%;
+}
+.group-1772 {
+  width: 2.2%;
+  height: 37.5%;
+  position: absolute;
+  right: 41.97%;
+  left: 55.83%;
+  bottom: 31.25%;
+  top: 31.25%;
+  overflow: visible;
+}
+.work-hour {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: "WorkSans-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: absolute;
+  right: 33.94%;
+  left: 58.74%;
+  width: 9.32%;
+  bottom: 50%;
+  top: 26.25%;
+  height: 23.75%;
+}
+.group-12 {
+  width: 172.68px;
+  height: 40px;
+  position: static;
+}
+._0123-some-place2 {
+  color: var(--secondary, #159eec);
+  text-align: left;
+  font-family: "WorkSans-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  right: 13.69%;
+  left: 76.58%;
+  width: 9.74%;
+  bottom: 23.75%;
+  top: 52.5%;
+  height: 23.75%;
+}
+.group-1782 {
+  width: 2.2%;
+  height: 45%;
+  position: absolute;
+  right: 24.13%;
+  left: 73.67%;
+  bottom: 27.5%;
+  top: 27.5%;
+  overflow: visible;
+}
+.location2 {
+  color: var(--primary, #1f2b6c);
+  text-align: left;
+  font-family: "WorkSans-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: absolute;
+  right: 17.57%;
+  left: 76.58%;
+  width: 5.86%;
+  bottom: 50%;
+  top: 26.25%;
+  height: 23.75%;
+}

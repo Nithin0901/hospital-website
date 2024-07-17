@@ -1,0 +1,92 @@
+:root {
+    --white: rgba(252, 254, 254, 1);
+    --primary: rgba(31, 43, 108, 1);
+    --secondary: rgba(21, 158, 236, 1);
+    --black: rgba(33, 33, 36, 1);
+    --accent: rgb(14, 192, 223);
+    --display-2-font-family: "Yeseva One", Helvetica;
+    --display-2-font-weight: 400;
+    --display-2-font-size: 32px;
+    --display-2-letter-spacing: 0px;
+    --display-2-line-height: normal;
+    --display-2-font-style: normal;
+    --caption-font-family: "Work Sans", Helvetica;
+    --caption-font-weight: 700;
+    --caption-font-size: 18px;
+    --caption-letter-spacing: 2.88px;
+    --caption-line-height: normal;
+    --caption-font-style: normal;
+    --body-font-family: "Work Sans", Helvetica;
+    --body-font-weight: 400;
+    --body-font-size: 16px;
+    --body-letter-spacing: 0px;
+    --body-line-height: 139.9999976158142%;
+    --body-font-style: normal;
+    --body-2-font-family: "Work Sans", Helvetica;
+    --body-2-font-weight: 400;
+    --body-2-font-size: 18px;
+    --body-2-letter-spacing: 0px;
+    --body-2-line-height: 139.9999976158142%;
+    --body-2-font-style: normal;
+    --small-font-family: "Work Sans", Helvetica;
+    --small-font-weight: 400;
+    --small-font-size: 14px;
+    --small-letter-spacing: 0px;
+    --small-line-height: normal;
+    --small-font-style: normal;
+  }
+  
+
+  /* Figma Styles of your File */
+:root {
+  /* Colors */
+  --white: #fcfefe;
+  --primary: #1f2b6c;
+  --secondary: #159eec;
+  --accent: #bfd2f8;
+  --black: #212124;
+
+  /* Fonts */
+  --display-1-font-family: YesevaOne-Regular, sans-serif;
+  --display-1-font-size: 48px;
+  --display-1-line-height: normal;
+  --display-1-font-weight: 400;
+  --display-1-font-style: normal;
+  --body-font-family: WorkSans-Regular, sans-serif;
+  --body-font-size: 16px;
+  --body-line-height: 140%;
+  --body-font-weight: 400;
+  --body-font-style: normal;
+  --button-text-font-family: WorkSans-Medium, sans-serif;
+  --button-text-font-size: 14px;
+  --button-text-line-height: normal;
+  --button-text-font-weight: 500;
+  --button-text-font-style: normal;
+  --small-font-family: WorkSans-Regular, sans-serif;
+  --small-font-size: 14px;
+  --small-line-height: normal;
+  --small-font-weight: 400;
+  --small-font-style: normal;
+  --caption-font-family: WorkSans-Bold, sans-serif;
+  --caption-font-size: 18px;
+  --caption-line-height: normal;
+  --caption-font-weight: 700;
+  --caption-font-style: normal;
+  --display-2-font-family: YesevaOne-Regular, sans-serif;
+  --display-2-font-size: 32px;
+  --display-2-line-height: normal;
+  --display-2-font-weight: 400;
+  --display-2-font-style: normal;
+  --body-2-font-family: WorkSans-Regular, sans-serif;
+  --body-2-font-size: 18px;
+  --body-2-line-height: 140%;
+  --body-2-font-weight: 400;
+  --body-2-font-style: normal;
+  --title-font-family: WorkSans-Medium, sans-serif;
+  --title-font-size: 26px;
+  --title-line-height: normal;
+  --title-font-weight: 500;
+  --title-font-style: normal;
+
+  /* Effects */
+}
